@@ -1,29 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/output.css" rel="stylesheet">
     <title>CNH</title>
 </head>
-<body>
-    <header>
-        <h1>
+<body class="text-center text-black">
+    <header class="bg-slate-400 p-3">
+        <h1 class="text-2xl font-bold">
             CNH-2024
         </h1>
     </header>
             <main>
-                <h2>Requisitos Para poder tirar sua CNH em 2024</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Quas eaque dolores neque id, nostrum repellendus consequuntur unde et quidem. <br> Porro placeat quaerat ea earum modi iure blanditiis, fugiat voluptates minima?</p>
+                <h2 class="bg-slate-400 font-bold mt-2 p-3">
+                Requisitos para poder tirar sua CNH em 2024
+                </h2>
+                <h3 class="font-bold mt-4">1 - Primeiro</h3>
+                <p class="my-4 pb">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Quas eaque dolores neque id, nostrum repellendus consequuntur unde et quidem. Porro placeat quaerat ea earum modi iure blanditiis, fugiat voluptates minima? <br>
+                </p>
+                <h3 class="font-bold mt-4">2 - Segundo</h3>
+                <p class="my-4 pb">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Atque sequi, laudantium beatae ducimus temporibus obcaecati? Ducimus numquam porro, fuga quo repellat officia voluptatibus quas, vitae, hic aut est ipsa eveniet.]
+                </p>
             </main>
-        <div>
-            <h3>Quantos anos você tem?</h3>
-            <input type="number" name="idade" id="idade">
-            <button id="enviar">Enviar</button>
-            <p>resultado</p>
+            <h3 class="bg-slate-400 font-bold p-3">Quantos anos você tem?</h3>
+        <div class="pb-28 pt-10 text-black">
+            <input class=" border-solid border-2 border-indigo-950 p-2 " type="number" name="idade" id="idade" placeholder="Digite sua idade">
+            <button class=" border-solid border-2 border-indigo-950 p-2 font-bold bg-slate-400 hover:bg-slate-300" id="enviar">Enviar</button>
+            <p class="font-bold p-2 mt-6" id="resultado">Resultado</p>
         </div>
-    <footer>
-        <p>&copy; 2024 - Projeto destinado ao portifolio</p>
+    <footer class="bg-slate-400 p-3">
+        <p class="font-bold">&copy; 2024 - Projeto destinado ao portifolio</p> 
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
